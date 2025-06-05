@@ -27,10 +27,10 @@ Before running the script, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone https://github.com/NoIdea00/host_injection.git
     cd your-repo-name
     ```
-    (Replace `your-username/your-repo-name` with your actual GitHub path)
+    (Replace `https://github.com/NoIdea00/host_injection.git` with your actual GitHub path)
 
 2.  **Create a virtual environment (recommended):**
     ```bash
@@ -39,13 +39,6 @@ Before running the script, ensure you have the following installed:
     ```
 
 3.  **Install Python dependencies:**
-    First, create a `requirements.txt` file in the same directory as `host_injection_v3.py` with the following content:
-    ```
-    tqdm==4.*
-    pathlib==1.*
-    # Note: shutil is built-in, no need to list
-    ```
-    Then, install them:
     ```bash
     pip install -r requirements.txt
     ```
