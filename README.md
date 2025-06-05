@@ -79,6 +79,8 @@ Before running the script, ensure you have the following installed:
 
 All scan results, state files, and logs are stored in the `results/` directory:
 
+
+```
 results/
 ├── naabu_locks/              # 🔒 Temporary lock files for active Naabu scans
 ├── host_injection_result/    # 🎯 Files detailing potential host header injection opportunities
@@ -86,7 +88,7 @@ results/
 ├── master_summary/           # 📜 Final aggregated JSON summary of all findings
 ├── state/                    # 💾 Stores scan state for resumption and backups
 └── logs/                     # 📄 scan_activity.jsonl contains detailed logs of all operations
-
+```
 
 ## 🛠️ Configuration
 
