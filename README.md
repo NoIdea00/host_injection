@@ -30,7 +30,6 @@ Before running the script, ensure you have the following installed:
     git clone https://github.com/NoIdea00/host_injection.git
     cd your-repo-name
     ```
-    (Replace `https://github.com/NoIdea00/host_injection.git` with your actual GitHub path)
 
 2.  **Create a virtual environment (recommended):**
     ```bash
